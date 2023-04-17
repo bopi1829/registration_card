@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Card</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="registration">
+        <form action="">
+            <label for="email">Your email</label>
+            <input type="text">
+            <p class="error"><span>This email exists already in the database</span></p>
+
+            <label for="password">Password</label>
+            <input type="text">
+            <p class="error"><span>At least 8 characters</span></p>
+
+            <label for="repeat-pwd">Password [Repeat]</label>
+            <input type="text">
+            <p class="error"><span>Some text here</span></p>
+
+            <label for="birthday">Year of birth</label>
+            <input type="text">
+            <p class="error"><span>Some text here</span></p>
+
+            <label for="country">Country</label>
+            <select name="country">
+                <option>Country 1</option>
+                <option>Country 2</option>
+            </select>
+            <div class="register_button"><span><a href="#">REGISTER</a></span></div>
+        </form>
+    </div>
+</body>
+</html>
