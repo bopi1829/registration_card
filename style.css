@@ -1,3 +1,71 @@
 * {
     box-sizing: border-box;
 }
+
+.registration form {
+    height: 350px;
+    width: 220px;
+    font-family: 'Gothic A1';
+    font-size: 11px;
+    font-weight: bold;
+    background-color: #0c032d;
+    color: #f1f1f1;
+    border-radius: 15px;
+    text-transform: uppercase;
+    padding: 10px 0 0 4px;
+}
+
+.registration input, .registration select {
+    width: 195px;
+    height: 20px;
+    margin: 5px 0 0 8px;
+}
+
+.registration label {
+    margin: 0 0 0 10px;
+    letter-spacing: 1.5px;
+}
+
+.registration input:focus {
+    background-color: #f3b806;
+}
+
+span.error{
+    margin-right: 20px;
+    font-size: 9px;
+    color: orange;
+    height: 10px;
+   }
+
+p.error {
+    margin: 0 14px 10px 0;
+    text-transform: none;
+    color: #f3b806;
+    font-size: 9px;
+    font-weight: 100;
+    text-align: right;
+    padding: 0 0 8px 0;
+    height: 6px;
+}
+
+.register_button {
+    width: 145px;
+    height: 40px;
+    background-color: #f3b806;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    margin: 15px auto 0 auto;
+    clear: both;
+}
+
+.register_button span a{
+    color: #f1f1f1;
+    text-decoration: none;
+    font-size: 28px;
+    font-family: 'Impact';
+}
+
+.register_button span a:hover {
+    color: #0c032d;
+}
